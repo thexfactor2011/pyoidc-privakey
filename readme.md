@@ -10,12 +10,12 @@ For more information visit [www.privakey.com](https://www.privakey.com) or conta
 
 ## Prerequisites ##
 
-*python 2.7+ python-pip python-dev build-essential libssl-dev libsasl2-dev
-*oic 0.7.6+
-*pyjwkest 1.0.1+
-*cherrypy 3.2.4+
-*pyaml 15.03.1+
-*cffi 1.4.1+
+* python 2.7+ python-pip python-dev build-essential libssl-dev libsasl2-dev
+* oic 0.7.6+
+* pyjwkest 1.0.1+
+* cherrypy 3.2.4+
+* pyaml 15.03.1+
+* cffi 1.4.1+
 
 ## Usage ##
 
