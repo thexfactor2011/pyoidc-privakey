@@ -1,0 +1,29 @@
+# parameters pulled from the IDP after registering (privakey.com)
+registration_info:
+  client_id: <privakey_client_id>
+  client_secret: <privakey_client_secret>
+  IDP_URL: "https://idp.privakey.com/identityserver"  
+
+  # only has support for using the first redirect_uri and response_type
+  # Only uncomment 1 from each section.
+  # (Recommended)If using code_flow you much use response_type code
+  # If using implicit_flow you must use response_type [id_token, token]  
+  redirect_uris:
+    - "{base}/code_flow"    
+    #- "{base}/implicit_flow"
+    
+  response_types:
+    - code    
+    #- [id_token, token]
+    
+
+# parameters for authentication request
+behaviour:
+  scope:
+    - openid
+
+server:
+  cert: certs/localhost.crt
+  key:  certs/localhost.key
+  cert_chain:
+  verify_ssl: False
